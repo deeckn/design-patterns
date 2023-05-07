@@ -1,0 +1,23 @@
+{
+    "name": "design-patterns",
+    "author": "Chakrin Deesit",
+    "description": "Design patterns in TypeScript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "@types/node": "^20.1.0",
+        "nodemon": "^2.0.22",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node build/index.js",
+        "prettier": "prettier --write .",
+        "dev": "nodemon"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.8"
+    }
+}
