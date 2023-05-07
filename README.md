@@ -1,16 +1,16 @@
-# Design Patterns
+## Design Patterns
 A repository of common design patterns written in Typescript.
 
 Credits:
 - https://refactoring.guru/design-patterns
 - https://youtube.com/@geekific
 
-## Getting Started
+### Getting Started
 Node and Yarn is required.
 1. `yarn install` to install dependencies
 2. (Optional) Install Prettier VSCode extension, if you want to play around while keeping code consistency
 
-## Viewing Examples
+### Viewing Examples
 Choose a design pattern by changing the enum in the `example` variable in `src/index.ts`.
 ```
 enum DesignPattern {
@@ -26,7 +26,7 @@ enum DesignPattern {
     FLYWEIGHT = 'flyweight',
 }
 
-const example: DesignPattern = DesignPattern.FLYWEIGHT
+const example: DesignPattern = DesignPattern.FLYWEIGHT // Edit here
 ```
 1. `yarn build` to transpile Typescript to Javascript
 2. `yarn start` to run the script
